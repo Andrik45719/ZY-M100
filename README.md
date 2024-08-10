@@ -4,6 +4,7 @@ This solution for **5.8G sensors only** with [JYSJ_5807_A01](./5807_A01.pdf) mod
 ![JLink ZY-M100-L wall mount](./pix/wall_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_2.jpg)
+![JLink ZY-M100-L ceiling mount](./pix/ceiling_3.jpg)
 
 ## Connect to [JLink](http://www.segger.com)
 
