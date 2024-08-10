@@ -60,6 +60,9 @@ exit
 ![JLink ZY-M100-L wall mount](./pix/wall_st-link.jpg)
 
 
+**Be careful check adapter pinout! Some clones have different one.**
+
+
 ## Backup original firmware using [OpenOCD](https://github.com/openocd-org/openocd/releases/tag/latest)
 ```batchfile
 openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash read_bank 0 ZY-M100_L.bin" -c "reset" -c shutdown
