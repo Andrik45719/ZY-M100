@@ -82,4 +82,4 @@ openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt
 - TuyaMCU [GD32E230F8P6TR](./GD32E230F8P6.pdf)
 - Zigbee module [ZS3L](https://developer.tuya.com/en/docs/iot/zs3l?id=K97r37j19f496)
 - [Адаптеры JTAG с поддержкой SWD](https://microsin.net/programming/arm/swd-jtag-adapters.html)
-
+- [SWJ adapters](https://wiki.cuvoodoo.info/doku.php?id=jtag)
