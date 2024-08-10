@@ -56,11 +56,11 @@ exit
 |SWDIO |3             |         6|19  |
 |SWCLK |4             |         4|20  |
 
+**Be careful check adapter pinout! Some clones have different one.**
+
+
 ![JLink ZY-M100-L ceiling mount](./pix/ST-Link_pinout.png)
 ![JLink ZY-M100-L wall mount](./pix/wall_st-link.jpg)
-
-
-**Be careful check adapter pinout! Some clones have different one.**
 
 
 ## Backup original firmware using [OpenOCD](https://github.com/openocd-org/openocd/releases/tag/latest)
