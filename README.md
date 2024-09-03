@@ -1,10 +1,13 @@
-# ZY-M100-L (_TZE204_ztc6ggyl) solving network spamming problem by disabling Target Distance reporting
-This solution for **5.8G sensors only** with [JYSJ_5807_A01](./5807_A01.pdf) module.
+# ZY-M100-L/S_2 solving network spamming problem by disabling Target Distance reporting
+For 5.8G module (_TZE204_ztc6ggyl) with [JYSJ_5807_A01](./5807_A01.pdf) use [ZY-M100_L-TargetDistance_disable.bin](./ZY-M100_L-TargetDistance_disable.bin).
 
 ![JLink ZY-M100-L wall mount](./pix/wall_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_2.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_3.jpg)
+
+For 5.8G module (_TZE204_qasjif9e) with ZY-M100 use [ZY-M100-S_2-TargetDistance_disable.bin](./ZY-M100-S_2-TargetDistance_disable.bin).
+![ZY-M100-S_2 ceiling mount](./pix/ZY-M100-S_2.jpg)
 
 # Connect to [JLink](http://www.segger.com)
 
