@@ -1,4 +1,4 @@
-# ZY-M100-L/S_2 solving network spamming problem by disabling Target Distance reporting
+# ZY-M100-L/S/S_2 solving network spamming problem by disabling Target Distance reporting
 Mods:
 - Target distance (DP: 9) reporting disabled.
 - Settings report interval (DPs: 1, 4, 2, 3, 6, 101, 102, 103, 104) increased to 60s, stock FW 10s.
