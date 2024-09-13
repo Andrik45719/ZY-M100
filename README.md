@@ -4,6 +4,12 @@ Mods:
 - Settings report interval (DPs: 1, 4, 2, 3, 6, 101, 102, 103, 104) increased to 60s, stock FW 10s.
 - Illuminance Lux report interval (DP 104) increased to 10s, stock FW 500ms
 
+Suppoted models:
+- ZY-M100_L (_TZE204_ztc6ggyl)
+- ZY-M100-S_1 (_TZE204_sxm7l9xa)
+- ZY-M100-S_2 (_TZE204_qasjif9e)
+- ZY-M100-24G (_TZE204_ijxvkhd0)
+- ZY-M100-24GV2 (_TZE204_7gclukjs)
 ##
 For 5.8G module (_TZE204_ztc6ggyl) with [JYSJ_5807_A01](./5807_A01.pdf) use [ZY-M100_L-TargetDistance_disable.bin](./ZY-M100_L-TargetDistance_disable.bin).
 
