@@ -1,24 +1,21 @@
-# ZY-M100-L/S/S_2 solving network spamming problem by disabling Target Distance reporting
+# ZY-M100-L/S_1/S_2/24G/24GV2 solving network spamming problem by disabling Target Distance reporting
 Mods:
 - Target distance (DP: 9) reporting disabled.
 - Settings report interval (DPs: 1, 4, 2, 3, 6, 101, 102, 103, 104) increased to 60s, stock FW 10s.
 - Illuminance Lux report interval (DP 104) increased to 10s, stock FW 500ms
 
 Suppoted models:
-- ZY-M100_L (_TZE204_ztc6ggyl)
-- ZY-M100-S_1 (_TZE204_sxm7l9xa)
-- ZY-M100-S_2 (_TZE204_qasjif9e)
-- ZY-M100-24G (_TZE204_ijxvkhd0)
-- ZY-M100-24GV2 (_TZE204_7gclukjs)
+- ZY-M100_L [(_TZE204_ztc6ggyl)](./ZY-M100_L_TZE204_ztc6ggyl-TargetDistance_disable.bin)
+- ZY-M100-S_1 [(_TZE204_sxm7l9xa, _TZE204_e5m9c5hl)](./ZY-M100-S_1_TZE204_sxm7l9xa-TargetDistance_disable.bin)
+- ZY-M100-S_2 [(_TZE204_qasjif9e)](./ZY-M100-S_2_TZE204_qasjif9e-TargetDistance_disable.bin)
+- ZY-M100-24G [(_TZE204_ijxvkhd0)](./ZY-M100-24G_TZE204_ijxvkhd0-TargetDistance_disable.bin)
+- ZY-M100-24GV2 [(_TZE204_7gclukjs)](./ZY-M100-24GV2_TZE204_7gclukjs-TargetDistance_disable.bin)
 ##
-For 5.8G module (_TZE204_ztc6ggyl) with [JYSJ_5807_A01](./5807_A01.pdf) use [ZY-M100_L-TargetDistance_disable.bin](./ZY-M100_L-TargetDistance_disable.bin).
-
 ![JLink ZY-M100-L wall mount](./pix/wall_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_2.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_3.jpg)
 
-For 5.8G module (_TZE204_qasjif9e) with ZY-M100 use [ZY-M100-S_2-TargetDistance_disable.bin](./ZY-M100-S_2-TargetDistance_disable.bin).
 ![ZY-M100-S_2 ceiling mount](./pix/ZY-M100-S_2.jpg)
 
 # Connect to [JLink](http://www.segger.com)
