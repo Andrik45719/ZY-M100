@@ -3,7 +3,7 @@
 - [Zigbee Generic Interfaces](https://developer.tuya.com/en/docs/iot/tuya-zigbee-universal-docking-access-standard?id=K9ik6zvofpzql)
 - [Serial Communication Protocol](https://developer.tuya.com/en/docs/iot/tuya-zigbee-module-uart-communication-protocol?id=K9ear5khsqoty)
 - [Tuya MCU OTA code](https://github.com/jjhyt/tuya_zigbee_pir_temp/blob/master/tuya-zigbee-pir-sht30-3/protocol.cpp)
-
+- [mcu_sdk](https://github.com/hqs1/EPD_clock/tree/master/MCU_Project/mcu_sdk)
 ## TUYA_MCU_VERSION_REQ
 ## TUYA_MCU_VERSION_RSP
 ```c
