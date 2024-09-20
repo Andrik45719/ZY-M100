@@ -1,7 +1,7 @@
 # TuyaMCU OTA research
 
 [Zigbee Generic Interfaces](https://developer.tuya.com/en/docs/iot/tuya-zigbee-universal-docking-access-standard?id=K9ik6zvofpzql)
-
+[Serial Communication Protocol](https://developer.tuya.com/en/docs/iot/tuya-zigbee-module-uart-communication-protocol?id=K9ear5khsqoty)
 Private cluster (0XEF00)
 
 ## TUYA_MCU_VERSION_REQ
