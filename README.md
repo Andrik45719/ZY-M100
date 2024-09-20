@@ -1,6 +1,6 @@
 # ZY-M100-L/S_1/S_2/24G/24GV2 solving network spamming problem by disabling Target Distance reporting
 Mods:
-- Target distance (DP: 9) reporting disabled.
+- Target distance (DP: 9/109) reporting disabled.
 - Settings report interval (DPs: 1, 4, 2, 3, 6, 101, 102, 103, 104) increased to 60s, stock FW 10s.
 - Illuminance Lux report interval (DP 104) increased to 10s, stock FW 500ms
 
@@ -35,7 +35,7 @@ Suppoted models:
 JLink.exe -device GD32E230F8 -if SWD -speed 4000 -autoconnect 1 
 ```
 ```
-savebin ZY-M100_L.bin 0x08000000 0x10000
+savebin ZY-M100_bkup.bin 0x08000000 0x10000
 exit
 ```
 
@@ -45,8 +45,8 @@ exit
 JLink.exe -device GD32E230F8 -if SWD -speed 4000 -autoconnect 1 
 ```
 ```
-loadfile ZY-M100_L-TargetDistance_disable.bin 0x08000000 reset
-VerifyBin ZY-M100_L-TargetDistance_disable.bin  0x08000000
+loadfile ZY-M100-{your_model_here}-TargetDistance_disable.bin 0x08000000 reset
+VerifyBin ZY-M100-{your_model_here}-TargetDistance_disable.bin  0x08000000
 exit
 ```
 ## Restore backuped firmware
@@ -55,8 +55,8 @@ exit
 JLink.exe -device GD32E230F8 -if SWD -speed 4000 -autoconnect 1 
 ```
 ```
-loadfile ZY-M100_L.bin 0x08000000 reset
-VerifyBin ZY-M100_L.bin  0x08000000
+loadfile ZY-M100_bkup.bin 0x08000000 reset
+VerifyBin ZY-M100_bkup.bin  0x08000000
 exit
 ```
 # Connect to [ST-Link V2 clone](http://www.aliexpress.com)
@@ -77,17 +77,19 @@ exit
 
 ## Backup original firmware using [OpenOCD](https://github.com/openocd-org/openocd/releases/tag/latest)
 ```batchfile
-openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash read_bank 0 ZY-M100_L.bin" -c "reset" -c shutdown
+openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash read_bank 0 ZY-M100_bkup.bin" -c "reset" -c shutdown
 ```
 
 ## Flash modified firmware
 ```batchfile
-openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash erase_sector 0 0 last" -c "flash write_bank 0 ZY-M100_L-TargetDistance_disable.bin" -c "flash verify_bank 0 ZY-M100_L-TargetDistance_disable.bin" -c "reset" -c shutdown
+openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash erase_sector 0 0 last" -c "flash write_bank 0 ZY-M100-{your_model_here}-TargetDistance_disable.bin" -c "flash verify_bank 0 ZY-M100-{your_model_here}-TargetDistance_disable.bin" -c "reset" -c shutdown
 ```
 ## Restore backuped firmware
 ```batchfile
-openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash erase_sector 0 0 last" -c "flash write_bank 0 ZY-M100_L.bin" -c "flash verify_bank 0 ZY-M100_L.bin" -c "reset" -c shutdown
+openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt" -c "flash erase_sector 0 0 last" -c "flash write_bank 0 ZY-M100_bkup.bin" -c "flash verify_bank 0 ZY-M100_bkup.bin" -c "reset" -c shutdown
 ```
+
+## [Step by step guide](https://github.com/Koenkk/zigbee2mqtt/issues/19045#issuecomment-2362489362) by [@tandarra](https://github.com/tandarra)
 
 # tech info
 - Microwave motion sensor module [JYSJ_5807_A01](./5807_A01.pdf)
