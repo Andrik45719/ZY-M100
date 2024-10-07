@@ -91,6 +91,10 @@ openocd -f interface/stlink-v2.cfg -f target/gd32e23x.cfg -c init -c "reset halt
 
 ## [Step by step guide](https://github.com/Koenkk/zigbee2mqtt/issues/19045#issuecomment-2362489362) by [@tandarra](https://github.com/tandarra)
 
+# Software
+- [ST-LINK, ST-LINK/V2, ST-LINK/V2-1, STLINK-V3 USB driver signed for Windows7, Windows8, Windows10](https://www.st.com/en/development-tools/stsw-link009.html)
+- [OpenOCD](https://github.com/openocd-org/openocd/releases/latest)
+- 
 # tech info
 - Microwave motion sensor module [JYSJ_5807_A01](./5807_A01.pdf)
 - TuyaMCU [GD32E230F8P6TR](./GD32E230F8P6.pdf)
