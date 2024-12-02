@@ -10,6 +10,8 @@ Suppoted models:
 - ZY-M100-S_2 [(_TZE204_qasjif9e)](./ZY-M100-S_2_TZE204_qasjif9e-TargetDistance_disable.bin)
 - ZY-M100-24G [(_TZE204_ijxvkhd0)](./ZY-M100-24G_TZE204_ijxvkhd0-TargetDistance_disable.bin)
 - ZY-M100-24GV2 [(_TZE204_7gclukjs)](./ZY-M100-24GV2_TZE204_7gclukjs-TargetDistance_disable.bin)
+Models with secured chip (not supported):
+- WZ-M100 _TZE204_laokfqwu
 ##
 ![JLink ZY-M100-L wall mount](./pix/wall_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_1.jpg)
