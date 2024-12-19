@@ -6,7 +6,7 @@ Mods:
 
 Suppoted models:
 - ZY-M100_L [(_TZE204_ztc6ggyl)](./ZY-M100_L_TZE204_ztc6ggyl-TargetDistance_disable.bin)
-- ZY-M100-S_1 [(_TZE204_sxm7l9xa, _TZE204_e5m9c5hl)](./ZY-M100-S_1_TZE204_sxm7l9xa-TargetDistance_disable.bin)
+- ZY-M100-S_1 [(_TZE204_sxm7l9xa)](./ZY-M100-S_1_TZE204_sxm7l9xa-TargetDistance_disable.bin) [(_TZE204_e5m9c5hl)](./ZY-M100-S_1_TZE204_e5m9c5hl-TargetDistance_disable.bin)
 - ZY-M100-S_2 [(_TZE204_qasjif9e)](./ZY-M100-S_2_TZE204_qasjif9e-TargetDistance_disable.bin)
 - ZY-M100-24G [(_TZE204_ijxvkhd0)](./ZY-M100-24G_TZE204_ijxvkhd0-TargetDistance_disable.bin)
 - ZY-M100-24GV2 [(_TZE204_7gclukjs)](./ZY-M100-24GV2_TZE204_7gclukjs-TargetDistance_disable.bin)
