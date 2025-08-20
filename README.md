@@ -11,6 +11,7 @@ Suppoted models:
 - ZY-M100-24G [(_TZE204_ijxvkhd0)](./ZY-M100-24G_TZE204_ijxvkhd0-TargetDistance_disable.bin)
 - ZY-M100-24GV2 [(_TZE204_7gclukjs)](./ZY-M100-24GV2_TZE204_7gclukjs-TargetDistance_disable.bin)
 - ZY-M100-24GV3 [(_TZE204_ya4ft0w4)](./ZY-M100-24GV3_TZE204_ya4ft0w4_increased_report_interval_TD_0_disable.bin)
+- ZY-M100-24GV3 [(_TZE200_gkfbdvyx)](./ZY-M100-24GV3_TZE200_gkfbdvyx_increased_report_interval_TD_0_disable.bin)
 
 Models with secured chip (not supported):
 - WZ-M100 _TZE204_laokfqwu
