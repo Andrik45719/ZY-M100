@@ -15,6 +15,10 @@ Suppoted models:
 
 Models with secured chip (not supported):
 - WZ-M100 _TZE204_laokfqwu
+
+You can look for Zigbee Manufacturer and select corresponding firmware, ignore TZE200/TZE204 mismatch is Tuya Zigbee module version only "abracadabra" make sense.
+![Z2M](./pix/z2m.jpg)
+  
 ##
 ![JLink ZY-M100-L wall mount](./pix/wall_1.jpg)
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_1.jpg)
@@ -22,6 +26,7 @@ Models with secured chip (not supported):
 ![JLink ZY-M100-L ceiling mount](./pix/ceiling_3.jpg)
 
 ![ZY-M100-S_2 ceiling mount](./pix/ZY-M100-S_2.jpg)
+
 
 # Connect to [JLink](http://www.segger.com)
 
